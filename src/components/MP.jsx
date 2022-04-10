@@ -4,7 +4,7 @@ function MP(){
     return (
         <div class="px-4 py-5 my-5">
         <div class="container col-lg-9 text-center">
-        <h1 class="lead mb-4 display-5 fw-bold">MP Name</h1>
+        <h1 class="display-7 fw-bold">MP Name</h1>
         <hr/>
         </div>
         <div class="col-lg-8 mx-auto">

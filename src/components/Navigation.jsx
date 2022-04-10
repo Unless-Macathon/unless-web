@@ -27,7 +27,7 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link link-dark px-2" style={{color: '#7B2CBF'}} to="/statistics">
+                <NavLink className="nav-link link-dark px-2" style={{color: '#7B2CBF'}} to="/Statistics">
                   Statistics
                 </NavLink>
               </li>

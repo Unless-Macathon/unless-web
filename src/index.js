@@ -1,14 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'mdbreact/dist/css/mdb.css';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Navigation from "./components/Navigation"
-import Footer from "./components/Footer"
-import Home from "./components/Home"
+import Navigation from "./components/Navigation";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
 import MP from "./components/MP";
+import Statistics from "./components/Statistics";
 
 ReactDOM.render(
   <Router>
@@ -16,6 +18,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/MP" element={<MP />} />
+      <Route path="/Statistics" element={<Statistics />} />
     </Routes>
     <Footer />
   </Router>,
