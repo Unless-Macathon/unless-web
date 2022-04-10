@@ -6,20 +6,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-<<<<<<< HEAD
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import MP from "./components/MP";
 import Statistics from "./components/Statistics";
-=======
-import Navigation from "./components/Navigation"
-import Footer from "./components/Footer"
-import Home from "./components/Home"
-import MP from "./components/MP"
-import voting from "./components/voting";
-
->>>>>>> 1367e7e5bfba0a0f78533ee769b79436b1987d21
+import AllParties from "./components/AllParties";
+import Voting from "./components/Voting";
 
 ReactDOM.render(
   <Router>
@@ -27,11 +20,9 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/MP" element={<MP />} />
-<<<<<<< HEAD
       <Route path="/Statistics" element={<Statistics />} />
-=======
-      <Route path="/voting" element={<voting />} />
->>>>>>> 1367e7e5bfba0a0f78533ee769b79436b1987d21
+      <Route path="/allparties" element={<AllParties />} />
+      <Route path="/voting" element={<Voting />} />
     </Routes>
     <Footer />
   </Router>,
