@@ -8,7 +8,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navigation from "./components/Navigation"
 import Footer from "./components/Footer"
 import Home from "./components/Home"
-import MP from "./components/MP";
+import MP from "./components/MP"
+import voting from "./components/voting";
+
 
 ReactDOM.render(
   <Router>
@@ -16,6 +18,7 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/MP" element={<MP />} />
+      <Route path="/voting" element={<voting />} />
     </Routes>
     <Footer />
   </Router>,
